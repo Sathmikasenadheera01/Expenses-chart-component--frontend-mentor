@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+    --red : hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+    --brown1: hsl(25, 47%, 15%);
+    --brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --pale: hsl(33, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: "DM Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--Cream);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+    /* background-color: aqua; */
+    /* padding: 2rem; */
+    margin-bottom: 10px;
+}
+.container h3{
+    font-weight: 700;
+    color: var(--pale);
+}
+.container p{
+    font-weight: 400;
+    color: var(--pale);
+}
+.first-div{
+    background-color: var(--red);
+    padding: 15px 25px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+/* .text{
+    margin-right: 150px;
+} */
+.second-div{
+    margin-top: 25px;
+    background-color: var(--pale);
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+.second-div h3{
+    font-weight: 700;
+    color: var(--brown1);
+}
+.second{
+    /* background-color: aqua; */
+    padding: 0px 10px 0 10px; 
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second div{
+    width: 35px;
+    height: 80%;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.bottom{
+    display: flex;
+    margin-top: 8px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.bottom p{
+    color: var(--brown);
+    font-size: 12px;
+    
+}
+
+.text2 h6{
+    font-weight: 700;
+    color: var(--brown1);
+    font-size: 16px;
+}
+.text2 p{
+    font-weight: 400;
+    color: var(--brown);
+    font-size: 14px;
+}
+.text3 h3{
+    font-size: 30px;
+}
